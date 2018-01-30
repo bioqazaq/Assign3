@@ -30,7 +30,7 @@ zhaniyaz
 
 ### 2
 Please create quotequotes.sh, please add 1 additional lines that prints the process id of the current script using a special variable in a sentence: "The process id for this script is **235**'
-* ` [zhaniyaz@trgn510 bin]$ ./jas_quotequotes.sh
+` [zhaniyaz@trgn510 bin]$ ./jas_quotequotes.sh
 trgn510.pmed.io
 VARIABLE
 I am on trgn510.pmed.io
@@ -38,7 +38,6 @@ I am on $HOSTNAME
 I am on $HOSTNAME
 The process id for this script is 2136
 `
-*
 
 ### 3
 Please create processes.sh.  Modify it such that it prints the top 5 CPU consuming processes
