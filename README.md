@@ -19,7 +19,7 @@ TEST.SH
 ### 1
 Please create pointless.sh, changing from printing your hostname with $HOSTNAME, to your $USER
 
-**
+* /jas_pointless.sh | 
 
 zhaniyaz
 5
