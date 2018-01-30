@@ -18,14 +18,11 @@ TEST.SH
 
 ### 1
 Please create pointless.sh, changing from printing your hostname with $HOSTNAME, to your $USER
-
-`
-zhaniyaz@trgn510 bin ./jas_pointless.sh
+`[zhaniyaz@trgn510 bin]$ ./jas_pointless.sh
 
 zhaniyaz
 5
-6
-`
+6`
 
 ### 2
 Please create quotequotes.sh, please add 1 additional lines that prints the process id of the current script using a special variable in a sentence: "The process id for this script is **235**'
