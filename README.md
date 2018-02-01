@@ -29,7 +29,7 @@ zhaniyaz
 
 
 ### 2
-Please create quotequotes.sh, please add 1 additional lines that prints the process id of the current script using a special variable in a sentence: "The process id for this script is **235**'
+Please create quotequotes.sh, please add 1 additional lines that prints the process id of the current script using a special variable in a sentence: "The process id for this script is **235**"
 ` [zhaniyaz@trgn510 bin]$ ./jas_quotequotes.sh
 trgn510.pmed.io
 VARIABLE
@@ -42,7 +42,9 @@ The process id for this script is 2136
 ### 3
 Please create processes.sh.  Modify it such that it prints the top 5 CPU consuming processes
 
-*REPLACE WITH RESULTS*
+*
+`[zhaniyaz@trgn510 bin]$ ./jas_processes.py
+UID PID PPID C STIME TTY TIME CMD root 1 0 0 Jan19 ? 00:02:41 /usr/lib/systemd/systemd --switched-root --system --deserialize 19 root 2 0 0 Jan19 ? 00:00:00 [kthreadd] root 3 2 0 Jan19 ? 00:00:00 [ksoftirqd/0] root 5 2 0 Jan19 ? 00:00:00 [kworker/0:0H] root 7 2 0 Jan19 ? 00:00:01 [migration/0]`
 
 ### 4
 Please create makeupper.sh.  Modify it to return lower case results, and change the name to makelower.sh
