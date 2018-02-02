@@ -48,7 +48,13 @@ UID PID PPID C STIME TTY TIME CMD root 1 0 0 Jan19 ? 00:02:41 /usr/lib/systemd/s
 ### 4
 Please create makeupper.sh.  Modify it to return lower case results, and change the name to makelower.sh
 
-*REPLACE WITH RESULTS for ps -ef | makeupper.sh*
+`
+[zhaniyaz@trgn510 bin]$ mv jas_makeupper.sh jas_makelower.sh
+[zhaniyaz@trgn510 bin]$ ls
+hi.txt  jas_makelower.sh  jas_pointless.sh  jas_processes.py  jas_quotequotes.sh  pymatch_zz.py
+[zhaniyaz@trgn510 bin]$ ./jas_processes.py | ./jas_makelower.sh
+uid pid ppid c stime tty time cmd root 1 0 0 jan19 ? 00:02:48 /usr/lib/systemd/systemd --switched-root --system --deserialize 19 root 2 0 0 jan19 ? 00:00:00 [kthreadd] root 3 2 0 jan19 ? 00:00:00 [ksoftirqd/0] root 5 2 0 jan19 ? 00:00:00 [kworker/0:0h] root 7 2 0 jan19 ? 00:00:01 [migration/0] `
+
 
 ### 5
 Referring to math.sh, create a script called add.sh that takes two inputs and adds them, **add.sh 5 3** would print 8
