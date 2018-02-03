@@ -58,9 +58,8 @@ uid pid ppid c stime tty time cmd root 1 0 0 jan19 ? 00:02:48 /usr/lib/systemd/s
 Referring to math.sh, create a script called add.sh that takes two inputs and adds them, **add.sh 5 3** would print 8
 
 `
-[zhaniyaz@trgn510 bin]$ ./add.sh
-8
-9
+[zhaniyaz@trgn510 bin]$ ./add.sh 9 9
+18
 `
 
 ### 6
