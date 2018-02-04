@@ -84,4 +84,16 @@ Please create whatgene.sh.  Please edit such that the function print_gene, print
 ### 10
 Please create a bash shell called "genotype.sh" that takes a VCF as argument 1, and prints space delimited chromosome, position, reference, alternative, and genotype for all genotypes in VCF.
 
-*REPLACE WITH RESULTS for genotype.sh ~/assign2/HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf | head*
+`
+[zhaniyaz@trgn510 bin]$ genotype.sh ~/projects/assign2/HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf | head
+1	239339	A	G	0/1:0:0,0:0,0:99:0/1:.:.
+1	239482	G	T	0/1:403:92,104:0,0:198:0/1:.:.
+1	240147	C	T	0/1:291:55,90:0,0:198:0/1:.:.
+1	240898	T	G	0/1:343:82,77:0,0:198:0/1:.:.
+1	567239	CG	C	1|1:534:0,214:38,252:241:1/1:.:PATMAT
+1	568745	C	CCA	0/1:817:255,152:255,152:198:0/1:.:.
+1	837214	G	C	0|1:558:122,138:135,166:581:0/1:.:PATMAT
+1	838153	CA	C	1|1:404:0,197:0,197:99:1/1:.:PATMAT
+1	842825	A	G	1|1:463:0,209:31,240:279:1/1:.:PATMAT
+1	845283	G	T	1|1:482:58,269:0,211:353:1/1:.:PATMAT
+`
