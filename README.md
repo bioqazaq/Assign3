@@ -79,7 +79,11 @@ All done
 ### 9
 Please create whatgene.sh.  Please edit such that the function print_gene, prints upper case of the input.
 
-*REPLACE WITH RESULTS*
+`
+[zhaniyaz@trgn510 bin]$ whatgene.sh 
+PTEN 
+J 
+`
 
 ### 10
 Please create a bash shell called "genotype.sh" that takes a VCF as argument 1, and prints space delimited chromosome, position, reference, alternative, and genotype for all genotypes in VCF.
